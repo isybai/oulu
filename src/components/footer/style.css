@@ -1,0 +1,87 @@
+.contact_info {
+  position: relative;
+  display: grid;
+  grid-template-columns: 47% 47%;
+  grid-column-gap: 2%;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000000bf;
+}
+.contact_info h2 {
+  font-family: 'altis-bold', Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.footer {
+  background: url('/img/footer.jpg') center bottom;
+}
+.contact_info .contacts {
+  color: #9e9e9e;
+  position: relative;
+}
+.contact_info .description {
+  color: #9e9e9e;
+  position: relative;
+}
+.contact_info button {
+  background: transparent;
+  color: white;
+  text-transform: uppercase;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.footer_links {
+  position: relative;
+  padding: 40px 0;
+  text-align: center;
+}
+.footer_links .logo img {
+  height: 70px;
+}
+.footer_links ul li {
+  display: inline-block;
+}
+.footer_links ul li a {
+  color: #9e9e9e;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 445px;
+  z-index: 0;
+  width: 100%;
+}
+
+@media only screen  and (max-width: 700px) {
+
+  .contact_info {
+    grid-template-columns: 100%;
+  }
+
+  .contacts,
+  .contact_info .description {
+    text-align: center;
+  }
+
+  .footer {
+    position: static;
+    height: initial;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

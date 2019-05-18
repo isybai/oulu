@@ -1,0 +1,113 @@
+.menu {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: #212121;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 95px;
+  padding-left: 15px;
+  top: 0;
+}
+a.logo {
+  width: fit-content;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+a.logo img {
+  height: 35px;
+}
+.navigation {
+  height: 100%;
+  display: flex;
+}
+a.menu_item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 300ms all;
+}
+a.menu_item:hover {
+  color: #f7a900;
+}
+
+.nav_icon {
+  display: none;
+}
+button.nav_icon span {
+  background: #fff;
+  height: 3px;
+  width: 35px;
+  display: inline-block;
+}
+button.nav_icon {
+  background: transparent;
+  border: 0;
+}
+
+@media only screen  and (max-width: 700px) {
+  .menu {
+    grid-template-columns: 20% 80%;
+    justify-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  .nav_icon {
+    display: block;
+    transition: transform 0.5s;
+    transform: translate3d(0, 0, 0);
+    position: relative;
+  }
+  .navigation {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 40px;
+    position: fixed;
+    z-index: 4;
+    background: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transform: translate3d(-260px, 0, 10px);
+    transition: transform 0.5s;
+    padding-top: 100px;
+  }
+  .nav_icon.active span {
+    position: absolute;
+    transition: 0.5s all;
+    transform: rotate(0deg);
+    top: 0;
+    background: #f7a900;
+  }
+  .nav_icon.active span:nth-child(odd) {
+    transform: rotate(-45deg);
+  }
+  .nav_icon.active span:nth-child(even) {
+    transform: rotate(45deg);
+  }
+  .nav_icon.active {
+    transform: translate3d(190px, 0, 0);
+    position: relative;
+    z-index: 4;
+  }
+  .navigation.active {
+    transform: translate3d(0, 0, 0);
+  }
+  .mobile_overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0000005e;
+    z-index: 2;
+  }
+}

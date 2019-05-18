@@ -1,0 +1,185 @@
+.main_page {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'video         video        video'
+    'event         event       event'
+    'calendar     calendar    calendar'
+    'api             api           api'
+    'addv          addv        addv';
+}
+
+.video_container {
+  grid-area: video;
+  padding: 0 10%;
+  background: black;
+}
+.video_container video {
+  width: 100%;
+  height: 500px;
+}
+.block_events {
+  grid-area: event;
+  text-align: center;
+}
+.block_events h2 {
+  color: #555555;
+  font-size: 50px;
+  font-family: 'altis-bold', Montserrat, Arial, Helvetica, sans-serif;
+}
+.event_container {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  justify-content: center;
+}
+.block_events .event {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 4px #111;
+  font-family: 'altis-bold', Montserrat, Arial, Helvetica, sans-serif;
+  background-size: cover;
+}
+.event1 {
+  background: url("/img/event1.jpg");
+}
+.event2 {
+  background: url("/img/event4.jpg");
+}
+.event3 {
+  background: url("/img/event5.jpg");
+}
+.calendar {
+  grid-area: calendar;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  justify-content: center;
+}
+.calendar_item {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 4px #111;
+  font-family: 'altis-bold', Montserrat, Arial, Helvetica, sans-serif;
+  background: #00a2f5;
+}
+
+.calendar_item:nth-child(even) {
+  background: #795548;
+}
+
+.weather_environment {
+  grid-area: api;
+}
+.weather_environment .api_container {
+  display: grid;
+  grid-template-columns: 33.3% 66.6%;
+  justify-content: center;
+}
+.weather_environment h2 {
+  color: #555555;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'altis-bold', Montserrat, Arial, Helvetica, sans-serif;
+}
+.api_container .weatherApi,
+.api_container .environment {
+  height: 320px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.api_container .weatherApi {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-areas:
+    'weather-title weather-title'
+    'weather-icon weather-data';
+}
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+  align-self: baseline;
+}
+.weather_environment .weatherApi h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  align-self: flex-end;
+}
+.weather-data p span {
+  color: #00afbe;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.weather-title {
+  grid-area: weather-title;
+}
+.weather-icon {
+  grid-area: weather-icon;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+  align-self: flex-start;
+}
+.weather-data p {
+  grid-area: weather-data;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.adv_container {
+  grid-area: addv;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+.adv_container .adv_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background: #111111;
+  color: white;
+  font-family: 'altis-bold', Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.adv_container .adv_item:nth-child(even) {
+  background: #808080;
+}
+
+@media only screen  and (max-width: 700px) {
+
+  .weather_environment .api_container,
+  .event_container,
+  .adv_container {
+    grid-template-columns: 100%;
+  }
+
+  .video_container video {
+    height: 210px;
+  }
+
+  .video_container {
+    padding: 0;
+  }
+
+  .block_events h2, .weather_environment h2 {
+    font-size: 26px;
+  }
+
+  .calendar {
+    grid-template-columns: 100%;
+  }
+}

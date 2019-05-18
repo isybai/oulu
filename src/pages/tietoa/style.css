@@ -1,0 +1,64 @@
+.tietoa_page .banner {
+  background: url("/img/tietoa.jpg")center center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 4px #111;
+  font-family: 'altis-bold', Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.text_container {
+  background-color: #4CAF50;
+  border: 1px solid white;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 4px #111;
+  font-family: 'altis-bold', Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 50px 0;
+}
+
+.section_title {
+  color: #555555;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'altis-bold', Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.item_logo {
+  height: 100px;
+  display: flex;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+.tietoa1 {
+  background: url("/img/logo1.png");
+}
+.tietoa2 {
+  background: url("/img/logo2.jpg");
+}
+.tietoa3 {
+  background: url("/img/logo3.jpg");
+}
+.tietoa4 {
+  background: url("/img/logo4.png");
+}
+
+@media only screen  and (max-width: 700px) {
+  .logos {
+    grid-template-columns: 100%;
+  }
+}

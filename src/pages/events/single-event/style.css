@@ -1,0 +1,12 @@
+.single_event .banner {
+  background: url("/img/active.jpg")center center;
+  background-size: cover;
+}
+.single_event .banner h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.event_content {
+  padding: 40px 20%;
+}
