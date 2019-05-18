@@ -4,11 +4,10 @@ import './style.css';
 export default function TietoaPage() {
   return (
     <article className="tietoa_page">
-      <section className="banner" />
-      <section className="text_container">
-        “Tällä sivulla on tietoa portaalin toiminnan tarkoituksesta,
+      <section className="banner">
+      Tällä sivulla on tietoa portaalin toiminnan tarkoituksesta,
         rahoittajista, ylläpidosta, sekä mahdolliset yhteystiedot palautetta
-        varten ja niin edelleen.”
+        varten ja niin edelleen.
       </section>
       <section className="logo_container">
         <ul className="logos">

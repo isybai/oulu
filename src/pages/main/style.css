@@ -143,7 +143,6 @@
   display: grid;
   grid-template-columns: 50% 50%;
   justify-content: center;
-  margin-bottom: 45px;
 }
 .adv_container .adv_item {
   display: flex;

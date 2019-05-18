@@ -63,7 +63,7 @@ export default function MapPage() {
     <article className="map_page">
       <section className="sections">
         <ul>
-          <p onClick={() => setSection(1)}>Section1 (Kiinnostavia kohteita)</p>
+          <p onClick={() => setSection(1)}>Kiinnostavia kohteita</p>
           {section === 1 && (
             <>
               <li onClick={() => setCenter({ lat: 65.018894, lng: 25.478051 })}>
@@ -77,7 +77,7 @@ export default function MapPage() {
               </li>
             </>
           )}
-          <p onClick={() => setSection(2)}>Section2 (Lenkkeilyreitti)</p>
+          <p onClick={() => setSection(2)}>Lenkkeilyreitti</p>
           {section === 2 && (
             <>
               <li onClick={() => setCenter({ lat: 65.020635, lng: 25.488081 })}>

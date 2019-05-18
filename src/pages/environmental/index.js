@@ -28,7 +28,7 @@ export default function Environmental() {
             täyttävää viimeisimmissä mittauksissa”
           </div>
           <div style={{ background: '#8BC34A' }} className="blocks right2">
-            Water quality chart
+            <Environment />
           </div>
           <div style={{ background: '#2196F3' }} className="blocks right3">
             <iframe
@@ -42,7 +42,7 @@ export default function Environmental() {
             />
           </div>
           <div className="blocks right4">
-            <Environment />
+
           </div>
         </div>
       </section>
