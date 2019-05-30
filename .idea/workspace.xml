@@ -2,28 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="428ed1f1-17c9-4baa-8f07-202bf809966b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/now.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/envi-graph/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/environmental/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/environmental/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/events/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/events/single-event/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/events/single-event/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/events/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/main/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/map/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/map/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/tietoa/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/tietoa/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/map/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/BeatSaberModManager.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/envi-graph/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/water-api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/environmental/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/environmental/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/environmental/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/environmental/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/main/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/map/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/map/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/map/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/map/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tietoa/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tietoa/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,28 +87,73 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="932754320">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="8" />
+          <entry key="PrettierLanguageServiceImpl" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="13" />
+          <entry key="html" value="2" />
+          <entry key="js" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="13" />
+          <entry key="HTML" value="2" />
+          <entry key="JavaScript" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="100" />
+          <entry key="html" value="3" />
+          <entry key="js" value="865" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="100" />
+          <entry key="HTML" value="3" />
+          <entry key="JavaScript" value="865" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/map/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/map/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="71">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/envi-graph/index.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/environmental/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="660">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="29" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +162,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/main/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="78" column="68" lean-forward="true" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
+            <state relative-caret-position="522">
+              <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/water-api/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-754">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/map/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="135" column="20" lean-forward="true" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -131,17 +225,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/map/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/main/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+            <state relative-caret-position="490">
+              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -150,29 +235,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mparisto.fi/i2/59/q5904</find>
-      <find>4</find>
-      <find>/fonts</find>
-      <find>/img</find>
-      <find>http</find>
-      <find>map_video</find>
-      <find>ul</find>
-      <find>left3</find>
-      <find>.right4</find>
-      <find>video</find>
-      <find>img</find>
-      <find>(/img</find>
-      <find>.event_banner .block:nth-child(even)</find>
-      <find>.event2</find>
-      <find>consol</find>
-      <find>p {</find>
-      <find>.sections ul</find>
-      <find>.sections ul p</find>
-      <find>.map_video</find>
-      <find>.left3</find>
-      <find>WEATHER IN OULU</find>
-      <find>.api_container .weatherApi</find>
-      <find>grid-t</find>
       <find>grid-</find>
       <find>.api_container &gt; div</find>
       <find>icon</find>
@@ -180,6 +242,29 @@
       <find>.weather-data p span</find>
       <find>.marker</find>
       <find>.api_container .environment</find>
+      <find>rgb(139, 195, 74)</find>
+      <find>blocks right2</find>
+      <find>left</find>
+      <find>Ympäristön tilaa seurataan Oulujoe</find>
+      <find>Vedenlaatu kaikilla jokisuiston uimapaikoilla on o</find>
+      <find>Vedenlaatua seurataan</find>
+      <find>/img</find>
+      <find>/font</find>
+      <find>http</find>
+      <find>is_</find>
+      <find>button.nav_icon span</find>
+      <find>.grid-row-2</find>
+      <find>.nav_icon</find>
+      <find>text-align: center;</find>
+      <find>.item_logo</find>
+      <find>video</find>
+      <find>img</find>
+      <find>/img/</find>
+      <find>font</find>
+      <find>fonts</find>
+      <find>#m</find>
+      <find>this.</find>
+      <find>var</find>
     </findStrings>
     <replaceStrings>
       <replace>../img</replace>
@@ -187,6 +272,9 @@
       <replace>../../fonts</replace>
       <replace>../../img</replace>
       <replace>(../../img</replace>
+      <replace>./img</replace>
+      <replace>../../img/</replace>
+      <replace>const</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\User\Desktop\oulu\src</dir>
@@ -201,18 +289,15 @@
         <option value="$PROJECT_DIR$/src/pages/main/inbdex.js" />
         <option value="$PROJECT_DIR$/now.json" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/menu/style.css" />
         <option value="$PROJECT_DIR$/build/static/js/main.d3a4af1a.chunk.js" />
         <option value="$PROJECT_DIR$/build/static/css/main.745400b1.chunk.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/node_modules/2gis-maps/dist/js/script.full.js" />
         <option value="$PROJECT_DIR$/build/precache-manifest.ceb54bd0b9bb3701587f19e949752e49.js" />
         <option value="$PROJECT_DIR$/build/static/css/main.70a237a2.chunk.css.map" />
         <option value="$PROJECT_DIR$/build/static/css/main.70a237a2.chunk.css" />
         <option value="$PROJECT_DIR$/build/static/js/main.fd7a8199.chunk.js" />
-        <option value="$PROJECT_DIR$/src/components/menu/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/pages/events/single-event/index.js" />
@@ -220,8 +305,6 @@
         <option value="$PROJECT_DIR$/src/pages/events/single-event/style.css" />
         <option value="$PROJECT_DIR$/build/static/css/main.cd339e02.chunk.css" />
         <option value="$PROJECT_DIR$/build/static/js/main.e759e271.chunk.js" />
-        <option value="$PROJECT_DIR$/src/components/footer/index.js" />
-        <option value="$PROJECT_DIR$/src/components/footer/style.css" />
         <option value="$PROJECT_DIR$/src/pages/tietoa/index.js" />
         <option value="$PROJECT_DIR$/build/static/css/main.abecdfca.chunk.css" />
         <option value="$PROJECT_DIR$/build/static/js/main.0c37c003.chunk.js" />
@@ -233,14 +316,25 @@
         <option value="$PROJECT_DIR$/build/static/css/main.56190114.chunk.css" />
         <option value="$PROJECT_DIR$/src/pages/events/index.js" />
         <option value="$PROJECT_DIR$/src/pages/events/style.css" />
-        <option value="$PROJECT_DIR$/src/pages/tietoa/style.css" />
-        <option value="$PROJECT_DIR$/src/pages/environmental/index.js" />
+        <option value="$PROJECT_DIR$/src/components/menu/index.js" />
+        <option value="$PROJECT_DIR$/build/static/css/main.5ff3f1a5.chunk.css" />
+        <option value="$PROJECT_DIR$/build/static/js/main.8ea09692.chunk.js" />
+        <option value="$PROJECT_DIR$/src/pages/main/style.css" />
+        <option value="$PROJECT_DIR$/src/components/envi-graph/index.js" />
+        <option value="$PROJECT_DIR$/src/components/menu/style.css" />
         <option value="$PROJECT_DIR$/src/pages/environmental/style.css" />
+        <option value="$PROJECT_DIR$/src/pages/tietoa/style.css" />
+        <option value="$PROJECT_DIR$/src/components/footer/style.css" />
+        <option value="$PROJECT_DIR$/build/static/css/main.5f0e49af.chunk.css" />
+        <option value="$PROJECT_DIR$/build/static/js/main.3d5395d8.chunk.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/map/index.js" />
+        <option value="$PROJECT_DIR$/src/components/footer/index.js" />
+        <option value="$PROJECT_DIR$/src/components/water-api/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/environmental/index.js" />
         <option value="$PROJECT_DIR$/src/pages/main/index.js" />
         <option value="$PROJECT_DIR$/src/pages/map/style.css" />
         <option value="$PROJECT_DIR$/src/pages/map/index.js" />
-        <option value="$PROJECT_DIR$/src/components/envi-graph/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/main/style.css" />
       </list>
     </option>
   </component>
@@ -264,11 +358,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="336" />
-    <option name="y" value="-13" />
-    <option name="width" value="1297" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -420,7 +514,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -437,34 +531,7 @@
               <item name="oulu" type="b2602c69:ProjectViewProjectNode" />
               <item name="oulu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oulu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oulu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="envi-graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oulu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oulu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oulu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oulu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="environmental" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oulu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oulu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oulu" type="b2602c69:ProjectViewProjectNode" />
@@ -473,37 +540,33 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="oulu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oulu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="tietoa" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558191178218" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559228500489" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Users\User\Desktop\oulu\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\User\Desktop\oulu\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\oulu\build" />
+      <recent name="C:\Users\User\Documents\GitHub\oulu\build\static\js" />
+      <recent name="C:\Users\User\Documents\GitHub\oulu\build\static\css" />
       <recent name="C:\Users\User\Desktop\oulu\public\img" />
     </key>
   </component>
@@ -549,17 +612,25 @@
       <workItem from="1557935410143" duration="214000" />
       <workItem from="1557936208460" duration="4659000" />
       <workItem from="1558179002905" duration="8942000" />
+      <workItem from="1558262700909" duration="3978000" />
+      <workItem from="1558453351633" duration="1322000" />
+      <workItem from="1558538554247" duration="269000" />
+      <workItem from="1558969548015" duration="7695000" />
+      <workItem from="1559228305314" duration="321000" />
+      <workItem from="1559228643373" duration="911000" />
+      <workItem from="1559229796383" duration="812000" />
+      <workItem from="1559230623030" duration="2456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89386000" />
+    <option name="totallyTimeSpent" value="107150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11446741" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13195549" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -574,7 +645,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960256" visible="true" weight="0.17180617" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49960256" visible="true" weight="0.2544053" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039744" side_tool="true" weight="0.17180617" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -595,40 +666,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/static/css/main.745400b1.chunk.css" />
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/2gis-maps/dist/js/script.full.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80626">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="17142" column="17" selection-start-line="17142" selection-start-column="17" selection-end-line="17142" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/precache-manifest.ceb54bd0b9bb3701587f19e949752e49.js" />
-    <entry file="file://$PROJECT_DIR$/build/static/css/main.70a237a2.chunk.css.map" />
-    <entry file="file://$PROJECT_DIR$/build/static/css/main.70a237a2.chunk.css" />
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.fd7a8199.chunk.js.map" />
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.fd7a8199.chunk.js" />
     <entry file="file://$PROJECT_DIR$/build/static/js/2.912727fc.chunk.js" />
     <entry file="file://$PROJECT_DIR$/build/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -641,24 +678,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/openweather-apis/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="192" column="29" selection-start-line="192" selection-start-column="27" selection-end-line="192" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/openweather-apis/index.js" />
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -676,24 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/precache-manifest.0f5a619ad911a3ed4fdedf2516b1a658.js" />
     <entry file="file://$PROJECT_DIR$/build/static/css/main.cd339e02.chunk.css" />
     <entry file="file://$PROJECT_DIR$/build/static/js/2.af052021.chunk.js" />
     <entry file="file://$PROJECT_DIR$/build/static/js/main.e759e271.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/menu/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="37" column="17" selection-start-line="23" selection-start-column="10" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/static/js/2.beab2ad1.chunk.js" />
     <entry file="file://$PROJECT_DIR$/build/static/js/main.0c37c003.chunk.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/tietoa/index.js">
@@ -704,20 +714,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/static/css/main.abecdfca.chunk.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/footer/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/footer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/static/js/2.69f91b70.chunk.js" />
     <entry file="file://$PROJECT_DIR$/build/static/js/main.d133b6ed.chunk.js" />
     <entry file="file://$PROJECT_DIR$/build/static/css/main.823bffe6.chunk.css" />
@@ -728,9 +724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/js/2.1d1e0d6e.chunk.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/2.1d1e0d6e.chunk.js" />
     <entry file="file://$PROJECT_DIR$/build/static/js/runtime~main.d653cc00.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -738,36 +732,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.2ab3bcec.chunk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13858">
-          <caret line="533" column="36" selection-start-line="533" selection-start-column="33" selection-end-line="533" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/css/main.56190114.chunk.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/events/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.2ab3bcec.chunk.js" />
+    <entry file="file://$PROJECT_DIR$/build/static/css/main.56190114.chunk.css" />
     <entry file="file://$PROJECT_DIR$/src/pages/events/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -775,51 +741,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/environmental/index.js">
+    <entry file="file://$USER_HOME$/Desktop/oulu/build/static/js/main.2ab3bcec.chunk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="209">
+          <caret line="221" column="33" selection-start-line="221" selection-start-column="28" selection-end-line="221" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.8ea09692.chunk.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/main/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="183" column="30" selection-start-line="183" selection-start-column="30" selection-end-line="183" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/events/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/css/main.5ff3f1a5.chunk.css" />
+    <entry file="file://$PROJECT_DIR$/build/static/css/main.5f0e49af.chunk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19188">
+          <caret line="738" column="51" selection-start-line="738" selection-start-column="51" selection-end-line="738" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/environmental/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="416">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/tietoa/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="1482">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/footer/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2132">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menu/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1820">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.3d5395d8.chunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1524">
+          <caret line="1002" column="17" lean-forward="true" selection-start-line="1002" selection-start-column="17" selection-end-line="1002" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/google-map-react/lib/google_map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/2gis-maps/dist/js/script.basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="11" column="15772" selection-start-line="11" selection-start-column="15772" selection-end-line="11" selection-end-column="15772" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/google-map-react/lib/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/map/style.css">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="962">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/map/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/menu/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="572">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/footer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/envi-graph/index.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="44">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/map/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/environmental/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/map/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/water-api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -828,17 +902,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/main/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="78" column="68" lean-forward="true" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
+        <state relative-caret-position="522">
+          <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/main/style.css">
+    <entry file="file://$PROJECT_DIR$/src/pages/map/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+        <state relative-caret-position="511">
+          <caret line="135" column="20" lean-forward="true" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

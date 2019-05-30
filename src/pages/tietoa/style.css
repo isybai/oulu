@@ -55,4 +55,7 @@
   .logos {
     grid-template-columns: 100%;
   }
+  li.item_logo {
+    margin-bottom: 40px;
+  }
 }

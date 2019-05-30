@@ -33,24 +33,24 @@ export default function Environmental() {
           <ul>
             <li>
               <Link to="/" className="menu_item">
-                Home
+                Etusivu
               </Link>
             </li>
             <li>
               <Link to="/environmental" className="menu_item">
-                Environmental Info
+                Ympäristötietoa
               </Link>
             </li>
             <li>
               {' '}
               <Link to="/map" className="menu_item">
-                Map
+                Kartta
               </Link>
             </li>
             <li>
               {' '}
               <Link to="/events" className="menu_item">
-                Events
+                Tapahtumat
               </Link>
             </li>
             <li>

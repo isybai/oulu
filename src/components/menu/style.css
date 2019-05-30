@@ -46,6 +46,7 @@ button.nav_icon span {
   height: 3px;
   width: 35px;
   display: inline-block;
+  margin-bottom: 10px;
 }
 button.nav_icon {
   background: transparent;
@@ -61,7 +62,8 @@ button.nav_icon {
     top: 0;
   }
   .nav_icon {
-    display: block;
+    display: flex;
+    flex-direction: column;
     transition: transform 0.5s;
     transform: translate3d(0, 0, 0);
     position: relative;

@@ -84,4 +84,15 @@
     flex-direction: column;
   }
 
+  .contact_info .contacts,
+  .contact_info .description,
+  .footer_links ul li a {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+    text-align: center !important;
+  }
+  a.menu_item {
+    justify-content: center;
+    margin-bottom: 15px !important;
+  }
 }

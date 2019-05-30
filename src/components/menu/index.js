@@ -22,16 +22,16 @@ export default function Menu() {
         </a>
         <nav className={menuActive ? 'navigation active' : 'navigation'}>
           <Link to="/" className="menu_item">
-            Home
+            Etusivu
           </Link>
           <Link to="/environmental" className="menu_item">
-            Environmental Info
+            Ympäristötietoa
           </Link>
           <Link to="/map" className="menu_item">
-            Map
+            Kartta
           </Link>
           <Link to="/events" className="menu_item">
-            Events
+            Tapahtumat
           </Link>
           <Link to="/tietoa" className="menu_item">
             Tietoa

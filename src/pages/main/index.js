@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
-import Environment from '../../components/envi-graph';
+import { WaterQuality } from '../../components/water-api';
 
 export default function MainPage() {
   const [weather, weatherSet] = useState(false);
@@ -96,7 +96,7 @@ export default function MainPage() {
               </div>
             </div>
             <div className="environment">
-              <Environment />
+              <WaterQuality />
             </div>
           </div>
         </section>

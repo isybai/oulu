@@ -181,4 +181,7 @@
   .calendar {
     grid-template-columns: 100%;
   }
+  .api_container .weatherApi {
+    grid-template-columns: 30% 65%;
+  }
 }
