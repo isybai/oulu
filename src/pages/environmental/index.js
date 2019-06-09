@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { WaterQuality, WaterFlow } from '../../components/water-api';
+import { WaterLevelTempChart, WaterFlow } from '../../components/water-api';
 
 export default function Environmental() {
   return (
@@ -28,7 +28,7 @@ export default function Environmental() {
                 Nallikarin virallisilla uimarannoilla
               </p>
               <div>
-                <WaterQuality />
+                <WaterLevelTempChart />
               </div>
             </div>
             <div className="right bg-ilta centered-text">

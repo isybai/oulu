@@ -22,9 +22,9 @@ a {
 .content {
   margin-bottom: 445px;
   position: relative;
-  z-index: 1;
+  z-index: 3;
   background: white;
-  padding-top: 95px;
+  margin-top: 95px;
 }
 
 h1.page_title {

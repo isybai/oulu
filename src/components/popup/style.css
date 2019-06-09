@@ -1,0 +1,48 @@
+.pop {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #000000a8;
+}
+
+.popup-body {
+  background: white;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+.close:hover {
+  color: red;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #050505;
+  font-size: 21px;
+  border: 1px solid;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 50%;
+  cursor: pointer;
+}

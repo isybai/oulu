@@ -17,23 +17,18 @@ const endDate = `${today.getFullYear()}-${today.getMonth() +
 // const startDate = `${today.getFullYear()}-${today.getMonth() +
 //   1}-${today.getDate() - 5}`;
 
-let url = `https://ehp-data.com/api/v2/units/886/data/?start=${endDate}T00:00:00Z&show_invalid=false`;
-let url2 = `https://ehp-data.com/api/v2/units/1159/data/?start=${endDate}T00:00:00Z&show_invalid=false`;
+let water_level = `https://ehp-data.com/api/v2/units/886/data/?start=${endDate}T00:00:00Z&show_invalid=false`;
+let water_temp = `https://ehp-data.com/api/v2/units/1159/data/?start=${endDate}T00:00:00Z&show_invalid=false`;
+let chlorophyl = `https://ehp-data.com/api/v2/units/6071/data/?start=${endDate}T00:00:00Z&show_invalid=false`;
+let turbidity = `https://ehp-data.com/api/v2/units/6075/data/?start=${endDate}T00:00:00Z&show_invalid=false`;
 
-export class WaterQuality extends Component {
+export class WaterLevelTempChart extends Component {
   state = {
-    data: null
+    wl_wt_chart: null
   };
 
   async componentWillMount() {
-    let res = await fetch(url, {
-      method: 'get',
-      headers: {
-        Authorization: 'Basic cHVibGljOnB1YmxpYw==',
-        'Content-type': 'application/json'
-      }
-    });
-    let res2 = await fetch(url2, {
+    let wl = await fetch(water_level, {
       method: 'get',
       headers: {
         Authorization: 'Basic cHVibGljOnB1YmxpYw==',
@@ -41,36 +36,101 @@ export class WaterQuality extends Component {
       }
     });
 
-    //new Date('2019-05-14T13:00:00Z').getUTCHours()
-    // Water level
+    let wt = await fetch(water_temp, {
+      method: 'get',
+      headers: {
+        Authorization: 'Basic cHVibGljOnB1YmxpYw==',
+        'Content-type': 'application/json'
+      }
+    });
 
-    res = await res.json();
-    res2 = await res2.json();
-    const data = res.results.reverse().map((res, index) => {
+    wl = await wl.json();
+    wt = await wt.json();
+
+    const wl_wt_chart = wl.results.reverse().map((item, index) => {
       return {
-        name: new Date(res.timestamp).getUTCHours() + ':00',
-        'Water level': res.value,
-        'Water Temp': res2.results.reverse()[index].value
+        name: new Date(item.timestamp).getUTCHours() + ':00',
+        'Water level': item.value,
+        'Water Temp': wt.results.reverse()[index].value
       };
     });
 
     this.setState({
-      data: data
+      wl_wt_chart: wl_wt_chart
     });
   }
 
   render() {
-    const { data } = this.state;
+    const { wl_wt_chart } = this.state;
 
     return (
       <LineChart
         width={is_mobile ? 400 : width - 100}
         height={300}
-        data={data}
+        data={wl_wt_chart}
         margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
       >
         <Line type="monotone" dataKey="Water level" stroke="#8884d8" />
         <Line type="monotone" dataKey="Water Temp" stroke="#82ca9d" />
+        <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+        <Legend />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
+      </LineChart>
+    );
+  }
+}
+
+export class ChlorophylTurbidityChart extends Component {
+  state = {
+    c_t_chart: null
+  };
+
+  async componentWillMount() {
+    let c = await fetch(chlorophyl, {
+      method: 'get',
+      headers: {
+        Authorization: 'Basic cHVibGljOnB1YmxpYw==',
+        'Content-type': 'application/json'
+      }
+    });
+    let t = await fetch(turbidity, {
+      method: 'get',
+      headers: {
+        Authorization: 'Basic cHVibGljOnB1YmxpYw==',
+        'Content-type': 'application/json'
+      }
+    });
+
+    c = await c.json();
+    t = await t.json();
+
+    const c_t_chart = c.results.reverse().map((item, index) => {
+      return {
+        name: new Date(item.timestamp).getUTCHours() + ':00',
+        Chlorofyle: item.value,
+        Turbidity: t.results.reverse()[index].value
+      };
+    });
+
+    this.setState({
+      c_t_chart: c_t_chart
+    });
+  }
+
+  render() {
+    const { c_t_chart } = this.state;
+
+    return (
+      <LineChart
+        width={is_mobile ? 400 : width - 100}
+        height={300}
+        data={c_t_chart}
+        margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
+      >
+        <Line type="monotone" dataKey="Chlorofyle" stroke="#8884d8" />
+        <Line type="monotone" dataKey="Turbidity" stroke="#82ca9d" />
         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
         <Legend />
         <XAxis dataKey="name" />
